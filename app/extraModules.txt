@@ -1,0 +1,4 @@
+npm install -D @tailwindcss/aspect-ratio
+add it to tailwind.config.ts:
+    in the empty plugin array, paste
+    plugins: [require("@tailwindcss/aspect-ratio")],

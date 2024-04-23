@@ -4,13 +4,13 @@ import React, { useState } from 'react';
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
-const scrollToSection = (sectionId: string) => {
-    const section = document.querySelector(sectionId);
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
-      setIsOpen(false); // Close the mobile menu after clicking
-    }
-  };      
+    const scrollToSection = (sectionId: string) => {
+        const section = document.querySelector(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+            setIsOpen(false); // Close the mobile menu after clicking
+        }
+    };
 
     return (
         <nav className="sticky top-0 bg-white shadow-lg z-50">
@@ -38,10 +38,15 @@ const scrollToSection = (sectionId: string) => {
                 </div>
             </div>
             {/* Mobile Menu */}
-            <div className={`md:hidden ${isOpen ? 'block' : 'hidden'}`}>
-                <a onClick={() => scrollToSection('#projects')} className="cursor-pointer block py-2 px-4 text-sm hover:bg-gray-200">Projects</a>
-                <a onClick={() => scrollToSection('#about')} className="cursor-pointer block py-2 px-4 text-sm hover:bg-gray-200">About</a>
+            <div className={`md:hidden ${isOpen ? 'block' : 'hidden'} bg-white shadow-lg rounded-lg p-4`}>
+                <a onClick={() => scrollToSection('#projects')} className="block py-2 px-4 text-sm text-gray-800 hover:bg-blue-50 hover:text-blue-700 rounded transition-colors duration-300">
+                    Projects
+                </a>
+                <a onClick={() => scrollToSection('#about')} className="block py-2 px-4 text-sm text-gray-800 hover:bg-blue-50 hover:text-blue-700 rounded transition-colors duration-300">
+                    About
+                </a>
             </div>
+
         </nav>
     );
 };
