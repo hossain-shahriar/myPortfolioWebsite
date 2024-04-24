@@ -46,7 +46,7 @@ const Experiences = () => {
     const experiences = [
         {
           company: 'SensiImage Technologies Ltd.',
-          title: 'Embedded Software Developer',
+          title: 'Software Developer',
           duration: 'Feb 2024 – Present',
           details: [
             'Developed a Python (Tkinter) GUI on Raspberry Pi 4 Model B for the main display unit in the embedded system.',

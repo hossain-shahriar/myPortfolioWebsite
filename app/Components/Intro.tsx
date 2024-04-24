@@ -17,7 +17,7 @@ const Intro = () => {
           Hello!👋 I'm a third-year Computing Science undergrad specializing in software practice, deeply interested in data analytics and machine learning. I'm actively seeking an internship to contribute to dynamic teams and implement data-driven solutions. Proficient in SQL, Python (Pandas, Matplotlib, scikit-learn), and experienced in Agile methodologies and version control systems like GitHub. Let's innovate together with data-driven strategies!
         </p>
         <div className="flex mt-8 space-x-8">
-          <a href="/resume.pdf" className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          <a href="/resume_Mohammad-Shahriar-Hossain.pdf" className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
             Resume
           </a>
           <a href="https://www.linkedin.com/in/mohammad-shahriar-hossain/" target="_blank" rel="noopener noreferrer">
