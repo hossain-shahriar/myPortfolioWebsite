@@ -46,12 +46,12 @@ const Experiences = () => {
     const experiences = [
         {
           company: 'SensiImage Technologies Ltd.',
-          title: 'Software Developer',
-          duration: 'Feb 2024 – Present',
+          title: 'Software Developer Co-op',
+          duration: 'May 2024 – Present',
           details: [
-            'Developed a Python (Tkinter) GUI on Raspberry Pi 4 Model B for the main display unit in the embedded system.',
-            'Pioneered machine learning integration into embedded systems, boosting startup\'s innovation in technology products.',
-            'Responsible for designing and implementing user interfaces and machine learning capabilities that enhance product functionality and user experience.'
+            'Collaborating with an experienced engineering team to design, develop, and test the user interface for the HandCOMM display module, ensuring seamless integration of both front-end aesthetics and back-end functionality.',
+            'Participating in troubleshooting and debugging the display module to enhance system stability and improve user experience.',
+            'Contributing to the integration of hardware and software components for HandCOMM, actively engaging with stakeholders to refine project specifications and deliver timely updates.'
           ]
         },
         {
