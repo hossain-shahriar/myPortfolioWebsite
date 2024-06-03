@@ -14,7 +14,7 @@ const Intro = () => {
           Hello, I'm Shahriar.
         </h1>
         <p className="my-10 mt-4 text-base md:text-lg text-gray-600 dark:text-gray-500">
-          Hello!👋 I'm a fourth-year Computing Science undergrad specializing in software practice, deeply interested in data analytics, data science and machine learning. I'm actively seeking an internship to contribute to dynamic teams and implement data-driven solutions. Proficient in SQL, Python, Power BI, and experienced in Agile methodologies and version control systems like GitHub. Let's innovate together with data-driven strategies!
+          Hello!👋 I'm a fourth-year Computing Science undergrad specializing in software practice, deeply interested in data analytics, data science and machine learning. I'm actively seeking an internship to contribute to dynamic teams and implement data-driven solutions. Proficient in SQL, Python (Numpy, Pandas, Matplotlib, Scikit-learn), Power BI, and experienced in Agile methodologies and version control systems like GitHub. Let's innovate together with data-driven strategies!
         </p>
         <div className="flex mt-8 space-x-8">
           <a href="/resume_Mohammad-Shahriar-Hossain.pdf" className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
