@@ -22,7 +22,7 @@ const Project: React.FC<ProjectProps> = ({
   <div className={`flex flex-col md:flex-row items-center justify-between py-10 ${index % 2 === 0 ? "md:flex-row-reverse" : ""}`}>
     {/* Project Image */}
     <div className="flex justify-center md:w-1/2 px-10">
-      <img src={image} alt={title} className="max-w-xs md:max-w-sm lg:max-w-md h-auto rounded-lg shadow-xl"/>
+      <img src={image} alt={title} className="max-w-xs md:max-w-sm lg:max-w-md h-auto rounded-lg shadow-xl" />
     </div>
     {/* Textual Content */}
     <div className="md:w-1/2 px-10 py-11">
@@ -52,46 +52,54 @@ const Projects = () => {
   const projectsData = [
     // Populate with your projects
     {
-        title: "Edmonton Housing Data Cleaning, Analysis & Visualization",
-        description: "This project shows data cleaning, analysis and visualization using SQL, Pandas and Microsoft Power BI",
-        technologies: ["SQL", "Power BI", "Python", "Pandas", "numpy", "Matplotlib"],
-        image: "/edmontonHousing.gif",
-        readMoreLink: "EdmontonHousing",
-        repoLink: "https://github.com/hossain-shahriar/DataCleaningAnalysisVisualization",
-      },
-      {
-        title: "Predictive Modeling and Analysis of Traffic Accidents",
-        description: "This business analytics project analyzes personal injury road accidents to identify key factors and predict injury severity. Using data-driven models like KNN, LDA, and Random Forest, it demonstrates how analytics can enhance road safety and traffic management.",
-        technologies: ["R Programming (ggplot2, ggvis, dplyr, rpart, tidyr, randomForest, stringr, caret)", "Exploratory data analysis (EDA)", "KNN", "LDA", "Decision Tree"],
-        image: "/predictiveAnalytics.gif",
-        readMoreLink: "PredictiveBusinessAnalytics",
-        repoLink: "#",
-      },
-      {
-        title: "Machine Learning Concepts",
-        description: "This project shows some basic concepts that are used in Machine Learning/Data Science",
-        technologies: ["Python", "Scikit-learn", "Jupyter Notebook"],
-        image: "/machineLearningConcepts.gif",
-        readMoreLink: "MachineLearningConcepts",
-        repoLink: "https://github.com/hossain-shahriar/MachineLearningConcepts",
-      },
-      {
-        title: "Sorting Visualizer",
-        description: "This RISC-V RARS assembly program sorts a given array and visualize it in GLIR (Graphics LIbrary for RISC-V)",
-        technologies: ["RARS RISC-V", "GLIR", "Insertion Sort"],
-        image: "/sorting.gif",
-        readMoreLink: "SortingVisualizer",
-        repoLink: "#",
-      },
-      {
-        title: "UX and Graphic Design",
-        description: "This project showcases the UX design of my Android Studio project along with some of my graphic designs",
-        technologies: ["Figma", "Adobe Illustrator", "Photoshop", "Lucidchat", "Adobe XD"],
-        image: "/ux-design.gif",
-        readMoreLink: "DesignPortfolio",
-        repoLink: "#",
-      },
-      // Additional projects...
+      title: "Next.js Full-Stack Social Media Application",
+      description: "This project involves the development of a full-stack social media application using Next.js, featuring user authentication, profile management, CRUD operations, and RESTful APIs for seamless data interaction and real-time feed updates with comment functionalities.",
+      technologies: ["Next.js", "TypeScript", "MongoDB", "Mongoose", "Tailwind CSS", "Axios", "Cloudinary", "NextAuth.js"],
+      image: "/anonfeed.gif",
+      readMoreLink: "AnonFeed",
+      repoLink: "#",
+    },
+    {
+      title: "Edmonton Housing Data Cleaning, Analysis & Visualization",
+      description: "This project shows data cleaning, analysis and visualization using SQL, Pandas and Microsoft Power BI",
+      technologies: ["SQL", "Power BI", "Python", "Pandas", "numpy", "Matplotlib"],
+      image: "/edmontonHousing.gif",
+      readMoreLink: "EdmontonHousing",
+      repoLink: "https://github.com/hossain-shahriar/DataCleaningAnalysisVisualization",
+    },
+    {
+      title: "Predictive Modeling and Analysis of Traffic Accidents",
+      description: "This business analytics project analyzes personal injury road accidents to identify key factors and predict injury severity. Using data-driven models like KNN, LDA, and Random Forest, it demonstrates how analytics can enhance road safety and traffic management.",
+      technologies: ["R Programming (ggplot2, ggvis, dplyr, rpart, tidyr, randomForest, stringr, caret)", "Exploratory data analysis (EDA)", "KNN", "LDA", "Decision Tree"],
+      image: "/predictiveAnalytics.gif",
+      readMoreLink: "PredictiveBusinessAnalytics",
+      repoLink: "#",
+    },
+    {
+      title: "Machine Learning Concepts",
+      description: "This project shows some basic concepts that are used in Machine Learning/Data Science",
+      technologies: ["Python", "Scikit-learn", "Jupyter Notebook"],
+      image: "/machineLearningConcepts.gif",
+      readMoreLink: "MachineLearningConcepts",
+      repoLink: "https://github.com/hossain-shahriar/MachineLearningConcepts",
+    },
+    {
+      title: "Sorting Visualizer",
+      description: "This RISC-V RARS assembly program sorts a given array and visualize it in GLIR (Graphics LIbrary for RISC-V)",
+      technologies: ["RARS RISC-V", "GLIR", "Insertion Sort"],
+      image: "/sorting.gif",
+      readMoreLink: "SortingVisualizer",
+      repoLink: "#",
+    },
+    {
+      title: "UX and Graphic Design",
+      description: "This project showcases the UX design of my Android Studio project along with some of my graphic designs",
+      technologies: ["Figma", "Adobe Illustrator", "Photoshop", "Lucidchat", "Adobe XD"],
+      image: "/ux-design.gif",
+      readMoreLink: "DesignPortfolio",
+      repoLink: "#",
+    },
+    // Additional projects...
   ];
 
   return (
