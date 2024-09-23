@@ -138,7 +138,7 @@ const Skills = () => {
       "Adobe Creative Cloud (Illustrator, Photoshop)", "Jupyter Notebook"
     ],
     "Programming Languages": [
-      "SQL", "MongoDB", "Python (scikit-learn, tensorflow, numpy, pandas, matplotlib, seaborn, pyqt, tkinter)", 
+      "SQL", "MongoDB", "Python (Django, Flask, scikit-learn, tensorflow, numpy, pandas, matplotlib, seaborn, pyqt, tkinter)", 
       "JavaScript (React.js, Next.js, Node.js, Tailwind CSS)", "TypeScript", "C", "C++", "C#", 
       "Java", "HTML", "CSS", "R (dplyr, tidyr, ggplot2, tensorflow, rpart, tidyverse, randomForest)", 
       "Lisp", "Prolog", "Assembly (RARS RISC-V)", "Julia"
