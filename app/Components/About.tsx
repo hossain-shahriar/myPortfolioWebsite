@@ -23,6 +23,7 @@ const Education = () => {
                 <li>Reinforcement Learning Specialization</li>
                 <li>Search and Planning in Artificial Intelligence</li>
                 <li>File and Database Management (SQL & MongoDB)</li>
+                <li>Software Process and Product Management</li>
                 <li>Introduction to Software Engineering (Android Development)</li>
                 <li>Computer Architecture I</li>
               </ul>
@@ -49,9 +50,9 @@ const Experiences = () => {
           title: 'Software Developer Co-op',
           duration: 'May 2024 – Present',
           details: [
-            'Collaborating with an experienced engineering team to design, develop, and test the user interface for the HandCOMM display module, ensuring seamless integration of both front-end aesthetics and back-end functionality.',
-            'Participating in troubleshooting and debugging the display module to enhance system stability and improve user experience.',
-            'Contributing to the integration of hardware and software components for HandCOMM, actively engaging with stakeholders to refine project specifications and deliver timely updates.'
+            "Managing and maintaining the frontend and backend of the company's web application, leveraging cloud computing and DevOps practices, including infrastructure maintenance to ensure scalability and reliability.",
+            "Developing and optimizing the Graphical User Interface (GUI) for the HandCOMM display module, while troubleshooting software and hardware issues to ensure seamless product functionality and an intuitive user experience.",
+            "Performing data cleaning, analysis, and visualization, and applying machine learning models for predictive analytics to drive data-driven decision-making and enhance overall product performance."
           ]
         },
         {
@@ -59,10 +60,10 @@ const Experiences = () => {
           title: 'Tech Solutions Advisor & Omni-Channel Specialist',
           duration: 'May 2023 – Sep 2023',
           details: [
-            'Enhanced customer product understanding for 150+ products, boosting informed purchases.',
-            'Developed sales strategies, increasing accessory upselling by 20% through customer insights.',
-            'Led training sessions for new employees on product knowledge and effective sales techniques.',
-            'Managed multiple customer queries and improved service quality by introducing omni-channel support strategies.'
+            "Enhanced customer understanding of product features and benefits, resulting in a 15% increase in customer purchase decisions.",
+            "Developed and implemented targeted sales strategies that optimized product placements, improving visibility and engagement.",
+            "Increased accessory upselling by an average of 30 additional units sold per month through strategic recommendations and personalized customer interactions.",
+            "Managed multiple customer queries and improved service quality by introducing omni-channel support strategies."
           ]
         },
         {
