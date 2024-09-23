@@ -126,38 +126,43 @@ const Experiences = () => {
   
 
 const Skills = () => {
-    // Skills data structured by category
-    const skillsCategories = {
-      "Academic Expertise": [
-        "Data analysis", "Data Science", "Machine Learning (Supervised & Reinforcement Learning)", 
-        "Artificial Intelligence", "Software Development", "Embedded System Design", "Web Application Development"
-      ],
-      "Software": [
-        "Microsoft office", "Power BI", "Tableau", "Figma", "Lucidchart", "Adobe Creative Cloud (illustrator, Photoshop)", "AnyDesk"
-      ],
-      "Programming Language": [
-        "C/C++/C#", "Lisp", "Prolog", "Assembly (RARS RISC-V)", "Java", "R", "Python (Numpy, Pandas, Scikit-Learn, Matplotlib, Tkinter)", 
-        "SQL", "MongoDB", "Julia", "HTML", "CSS", "Javascript", "MATLAB"
-      ],
-      "Programming Tools": [
-        "Jupyter Notebook", "Git", "Linux", "Android Studio", "iOS", "Raspberry Pi", "Visual Studio", "Node.js"
-      ],
-      "Language": [
-        "English", "French", "Bangla", "Hindi", "Urdu"
-      ]
-    };
+  // Skills data structured by category
+  const skillsCategories = {
+    "Academic Expertise": [
+      "Software Development", "Data Analysis", "Data Science", "Machine Learning", 
+      "Artificial Intelligence"
+    ],
+    "Tools and Software": [
+      "Office 365", "Power BI", "Tableau", "Linux", "Android Studio", "iOS", "Visual Studio Code", 
+      "Git", "GitHub", "GitLab", "Raspberry Pi", "Figma", "Lucidchart", 
+      "Adobe Creative Cloud (Illustrator, Photoshop)", "Jupyter Notebook"
+    ],
+    "Programming Languages": [
+      "SQL", "MongoDB", "Python (scikit-learn, tensorflow, numpy, pandas, matplotlib, seaborn, pyqt, tkinter)", 
+      "JavaScript (React.js, Next.js, Node.js, Tailwind CSS)", "TypeScript", "C", "C++", "C#", 
+      "Java", "HTML", "CSS", "R (dplyr, tidyr, ggplot2, tensorflow, rpart, tidyverse, randomForest)", 
+      "Lisp", "Prolog", "Assembly (RARS RISC-V)", "Julia"
+    ],
+    "Cloud Platforms and DevOps": [
+      "AWS", "Azure", "Google Cloud", "Docker", "Kubernetes", "Jenkins", 
+      "Travis CI", "GitHub Actions"
+    ],
+    "Language": [
+      "English", "French", "Bangla", "Hindi", "Urdu"
+    ]
+  };
 
-      return (
+  return (
     <div className="mt-6">
       <h3 className="text-2xl font-bold mb-4">Skills</h3>
       {Object.entries(skillsCategories).map(([category, skills], index) => (
         <div key={index} className="mb-4">
           <h4 className="font-semibold mb-2">{category}</h4>
           <div className="flex flex-wrap gap-2">
-            {skills.map(skill => (
-              <span key={index} className="px-3 py-1 bg-gray-200 rounded-md text-xs font-medium hover:bg-red-600 hover:text-white transition-colors duration-300 cursor-pointer">
-              {skill}
-            </span>
+            {skills.map((skill, skillIndex) => (
+              <span key={skillIndex} className="px-3 py-1 bg-gray-200 rounded-md text-xs font-medium hover:bg-red-600 hover:text-white transition-colors duration-300 cursor-pointer">
+                {skill}
+              </span>
             ))}
           </div>
         </div>
