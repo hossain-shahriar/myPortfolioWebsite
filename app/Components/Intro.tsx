@@ -16,7 +16,7 @@ const Intro = () => {
         <p className="my-10 mt-4 text-base md:text-lg text-gray-600 dark:text-gray-500">
 I’m a <b>final-year Computing Science student specializing in Software Practice</b> with a passion for creating innovative solutions through <b>Full Stack development</b>, <b>Data Analytics</b>, <b>Cloud Computing</b>, <b>DevOps</b>, <b>Artificial Intelligence</b>, and <b>Machine Learning</b>. I thrive in collaborative environments, bringing creativity, technical skills, and a problem-solving mindset to the table. One of my proudest achievements was <b>helping my team win first place in a hackathon</b>, where teamwork and a shared vision for innovation made all the difference. I’m eager to contribute to a company where I can make a positive impact in the tech and AI industry. Let's collaborate to build cutting-edge technology and push the boundaries of what's possible!</p>
         <div className="flex mt-8 space-x-8">
-          <a href="/resume_Mohammad-Shahriar-Hossain.pdf" className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          <a href="/resume_Mohammad_Shahriar_Hossain.pdf" className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
             Resume
           </a>
           <a href="https://www.linkedin.com/in/mohammad-shahriar-hossain/" target="_blank" rel="noopener noreferrer">
