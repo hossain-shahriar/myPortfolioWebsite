@@ -52,12 +52,12 @@ const Projects = () => {
   const projectsData = [
     // Populate with your projects
     {
-      title: "Next.js Full-Stack Social Media Application",
-      description: "This project involves the development of a full-stack social media application using Next.js, featuring user authentication, profile management, CRUD operations, and RESTful APIs for seamless data interaction and real-time feed updates with comment functionalities.",
-      technologies: ["Next.js", "TypeScript", "MongoDB", "Mongoose", "Tailwind CSS", "Axios", "Cloudinary", "NextAuth.js"],
-      image: "/anonfeed.gif",
-      readMoreLink: "AnonFeed",
-      repoLink: "#",
+      title: "Oxygen: Chronic Illness Management App",
+      description: "A cross-platform app designed to support patients and caregivers in managing chronic health conditions. Key features include symptom and appointment tracking, a medical wallet, AI-driven insights, and caregiver access.",
+      technologies: ["React Native", "TypeScript", "Expo", "Tailwind CSS", "AI Integration"],
+      image: "/oxygenApp.gif", // Replace with the correct image path
+      readMoreLink: "OxygenApp", // Replace with the correct link for "Read More"
+      repoLink: "#", // Replace with the actual GitHub repo link
     },
     {
       title: "Edmonton Housing Data Cleaning, Analysis & Visualization",
@@ -73,6 +73,14 @@ const Projects = () => {
       technologies: ["R Programming (ggplot2, ggvis, dplyr, rpart, tidyr, randomForest, stringr, caret)", "Exploratory data analysis (EDA)", "KNN", "LDA", "Decision Tree"],
       image: "/predictiveAnalytics.gif",
       readMoreLink: "PredictiveBusinessAnalytics",
+      repoLink: "#",
+    },
+    {
+      title: "Next.js Full-Stack Social Media Application",
+      description: "This project involves the development of a full-stack social media application using Next.js, featuring user authentication, profile management, CRUD operations, and RESTful APIs for seamless data interaction and real-time feed updates with comment functionalities.",
+      technologies: ["Next.js", "TypeScript", "MongoDB", "Mongoose", "Tailwind CSS", "Axios", "Cloudinary", "NextAuth.js"],
+      image: "/anonfeed.gif",
+      readMoreLink: "AnonFeed",
       repoLink: "#",
     },
     {
