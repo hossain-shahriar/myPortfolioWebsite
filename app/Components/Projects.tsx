@@ -121,8 +121,18 @@ const Projects = () => {
       {projectsData.map((project, index) => (
         <Project key={index} index={index} {...project} />
       ))}
+      {/* Add a link to the extra HTML file */}
+      <div className="text-center mt-10">
+        <a
+          href="/event_map.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:underline text-lg font-bold"
+        >
+          View More Projects →
+        </a>
+      </div>
     </section>
   );
-};
-
+}
 export default Projects;
