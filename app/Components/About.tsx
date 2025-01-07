@@ -48,11 +48,11 @@ const Experiences = () => {
         {
           company: 'SensiImage Technologies Ltd.',
           title: 'Software Developer Co-op',
-          duration: 'May 2024 – Present',
+          duration: 'May 2024 – Dec 2024',
           details: [
-            "Managing and maintaining the frontend and backend of the company's web application, leveraging cloud computing and DevOps practices, including infrastructure maintenance to ensure scalability and reliability.",
-            "Developing and optimizing the Graphical User Interface (GUI) for the HandCOMM display module, while troubleshooting software and hardware issues to ensure seamless product functionality and an intuitive user experience.",
-            "Performing data cleaning, analysis, and visualization, and applying machine learning models for predictive analytics to drive data-driven decision-making and enhance overall product performance."
+            "Managed and maintained the frontend and backend of the company's web application, leveraging cloud computing and DevOps practices, including infrastructure maintenance to ensure scalability and reliability.",
+            "Developed and optimized the Graphical User Interface (GUI) for the HandCOMM display module, while troubleshooting software and hardware issues to ensure seamless product functionality and an intuitive user experience.",
+            "Performed data cleaning, analysis, and visualization, and applied machine learning models for predictive analytics to drive data-driven decision-making and enhance overall product performance."
           ]
         },
         {
