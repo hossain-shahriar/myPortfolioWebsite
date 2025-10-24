@@ -17,6 +17,9 @@ const Education = () => {
           {showMore && (
             <ul>
               <li><strong>Important Courses:</strong></li>
+              <li>Advanced Algorithms</li>
+              <li>Computational Semantics</li>
+              <li>Artificial Intelligence Capstone</li>
               <li>Predictive Business Analytics</li>
               <li>Operations Management</li>
               <li>Introduction to Machine Learning</li>
@@ -45,6 +48,17 @@ const Experiences = () => {
 
   // Dummy experiences data
   const experiences = [
+    {
+      company: 'University of Alberta',
+      title: 'Undergraduate Teaching Assistant - Department of Computing Science',
+      duration: 'Sep 2025 – Present',
+      details: [
+        'Mentored student teams in Agile and Scrum (sprint planning, estimation), strengthening project and product management skills.',
+        'Facilitated stand-ups, sprint reviews, and client communication to maintain alignment and delivery cadence.',
+        'Conducted code reviews and testing in Git/GitHub, using peer assessment to calibrate contributions and improve release quality.',
+        'Led labs and workshops, fostering a collaborative learning environment focused on professional software development practices.'
+      ]
+    },
     {
       company: 'Nutrien',
       title: 'Data Analytics Co-op',
