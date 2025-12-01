@@ -16,8 +16,8 @@ const Intro = () => {
         <p className="my-10 mt-4 text-base md:text-lg text-gray-600 dark:text-gray-500">
 I am a <b>final-year Computing Science student specializing in Software Practice</b> with a strong research interest in <b>Natural Language Processing (NLP)</b>, <b>Large Language Models (LLMs)</b>, <b>Computational Semantics</b>, <b>Artificial Intelligence</b>, and <b>Machine Learning</b>. As a <b>Teaching Assistant in the Computing Science Department at the University of Alberta</b>, I mentor teams on requirements, architecture, Agile practices, and rigorous evaluation, which informs my approach to empirical research and reproducible ML. My recent work spans <b>data analytics</b>, <b>cloud computing</b>, and <b>DevOps/MLOps</b> for end-to-end model development and deployment. I actively participate in hackathons and have earned multiple <b>hackathon wins</b>, collaborating under tight timelines to prototype language-centric systems and applied AI solutions. I am eager to contribute to research that advances language understanding, responsible LLMs, and real-world NLP applications.</p>
         <div className="flex mt-8 space-x-8">
-          <a href="/resume_Mohammad_Shahriar_Hossain.pdf" className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-            Resume
+          <a href="/cv_Mohammad_Shahriar_Hossain.pdf" className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Curriculum vitae (CV)
           </a>
           <a href="https://www.linkedin.com/in/mohammad-shahriar-hossain/" target="_blank" rel="noopener noreferrer">
             <img src="/linkedin.png" alt="LinkedIn" className="h-8 w-8" />
