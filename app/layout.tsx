@@ -7,6 +7,17 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Portfolio • Mohammad Shahriar Hossain",
   description: "This is my personal portfolio website",
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      noimageindex: true,
+      nocache: true,
+    },
+  },
 };
 
 export default function RootLayout({

@@ -9,14 +9,20 @@ const Education = () => {
       <div className="mb-6">
         <h3 className="text-2xl font-bold mb-4">Education</h3>
 
-        {/* University of Alberta */}
         <div>
-          <p className="font-semibold">University of Alberta – Class of 2026</p>
+          <p className="font-semibold">University of Alberta</p>
+          <p>M.Sc. Computing Science (Thesis)</p>
+          <p>Sep 2026 - Present</p>
+          <p className="pb-5">Supervisor: Dr. Osmar R. Zaiane</p>
+        </div>
+
+        <div>
+          <p className="font-semibold">University of Alberta</p>
           <p>B.Sc. Computing Science (Specialization in Software Practice)</p>
-          <p className='pb-5'>Terms completed: 6/8</p>
+          <p className='pb-5'>Sep 2021 - Jun 2026</p>
           {showMore && (
             <ul>
-              <li><strong>Important Courses:</strong></li>
+              <li><strong>Relevant Coursework:</strong></li>
               <li>Advanced Algorithms</li>
               <li>Computational Semantics</li>
               <li>Artificial Intelligence Capstone</li>
@@ -50,66 +56,38 @@ const Experiences = () => {
   const experiences = [
     {
       company: 'University of Alberta',
-      title: 'Undergraduate Teaching Assistant - Department of Computing Science',
-      duration: 'Sep 2025 – Present',
+      title: 'Graduate Research Assistant - Department of Computing Science',
+      duration: 'Sep 2026 - Present',
       details: [
-        'Mentored student teams in Agile and Scrum (sprint planning, estimation), strengthening project and product management skills.',
-        'Facilitated stand-ups, sprint reviews, and client communication to maintain alignment and delivery cadence.',
-        'Conducted code reviews and testing in Git/GitHub, using peer assessment to calibrate contributions and improve release quality.',
-        'Led labs and workshops, fostering a collaborative learning environment focused on professional software development practices.'
+        'Conduct research in natural language processing and large language models under the supervision of Dr. Osmar R. Zaiane, focusing on language understanding, explainability, and reliable AI systems.',
+        'Contribute to the MIRA chatbot research project through literature review, experimentation, implementation, and evaluation of NLP and LLM-based approaches.'
+      ]
+    },
+    {
+      company: 'University of Alberta',
+      title: 'Undergraduate Teaching Assistant - Department of Computing Science',
+      duration: 'Sep 2025 - Present',
+      details: [
+        'Mentor student teams on Agile and Scrum, lead labs and workshops, and help plan and deliver software projects in a collaborative setting.',
+        'Review Git/GitHub work with code reviews, testing, and peer feedback, and support clear communication through stand-ups, sprint reviews, and client meetings.'
       ]
     },
     {
       company: 'Nutrien',
       title: 'Data Analytics Co-op',
-      duration: 'Jan 2025 – Present',
+      duration: 'Jan 2025 - Present',
       details: [
-        "Analyze and visualize data using Excel, Power Query, Power BI, and SQL, connecting to SAP HANA cubes to extract real-time health, safety, procurement, and fleet data for reporting and strategic insights.",
-        "Develop time series forecasting and risk prediction models in Python using AWS SageMaker, integrating MLOps workflows to automate model training, evaluation, and deployment.",
-        "Apply DevOps practices to streamline data pipelines, improve workflow efficiency, and support continuous integration across internal systems involved in safety analytics and corporate operations.",
-        "Work closely with cross-functional teams to ensure accurate data integration across multiple platforms, troubleshoot system connectivity issues, and deliver scalable dashboards and machine learning solutions aligned with business goals."
+        "Analyze and visualize health, safety, procurement, and fleet data using Excel, Power Query, Power BI, SQL, and SAP HANA to build reports and dashboards for decision makers.",
+        "Build time series and risk prediction models in Python on AWS SageMaker and work with cross-functional teams to improve data pipelines, automate workflows, and align machine learning solutions with business needs."
       ]
     },
     {
       company: 'SensiImage Technologies Ltd.',
       title: 'Software Developer Co-op',
-      duration: 'May 2024 – Dec 2024',
+      duration: 'May 2024 - Dec 2024',
       details: [
-        "Managed and maintained the frontend and backend of the company's web application, leveraging cloud computing and DevOps practices, including infrastructure maintenance to ensure scalability and reliability.",
-        "Developed and optimized the Graphical User Interface (GUI) for the HandCOMM display module, while troubleshooting software and hardware issues to ensure seamless product functionality and an intuitive user experience.",
-        "Performed data cleaning, analysis, and visualization, and applied machine learning models for predictive analytics to drive data-driven decision-making and enhance overall product performance."
-      ]
-    },
-    {
-      company: 'Best Buy Canada',
-      title: 'Tech Solutions Advisor & Omni-Channel Specialist',
-      duration: 'May 2023 – Sep 2023',
-      details: [
-        "Enhanced customer understanding of product features and benefits, resulting in a 15% increase in customer purchase decisions.",
-        "Developed and implemented targeted sales strategies that optimized product placements, improving visibility and engagement.",
-        "Increased accessory upselling by an average of 30 additional units sold per month through strategic recommendations and personalized customer interactions.",
-        "Managed multiple customer queries and improved service quality by introducing omni-channel support strategies."
-      ]
-    },
-    {
-      company: 'The City Bank Limited',
-      title: 'IT-Support Intern',
-      duration: 'May 2022 – August 2022',
-      details: [
-        'Built 30+ custom computers for optimal client performance and satisfaction.',
-        'Resolved over 100 networking issues using AnyDesk, improving system reliability and connectivity.',
-        'Handled technical support tasks including maintenance and troubleshooting of network issues, leading to a significant decrease in downtime and disruption.'
-      ]
-    },
-    {
-      company: 'University of Alberta, Residence Services',
-      title: 'Resident Assistant',
-      duration: 'Sep 2021 – April 2022',
-      details: [
-        'Promoted equity, diversity, and inclusivity through weekly meetings and group activities.',
-        'Responded to student issues and safety concerns, including lockouts, alcohol overdose, first aid, and after-hour services.',
-        'Coordinated events and programs to foster a supportive community environment.',
-        'Implemented crisis management protocols to ensure student safety and wellbeing.'
+        "Maintained and extended the company web application across frontend and backend, using cloud infrastructure and DevOps practices to keep the product stable and responsive.",
+        "Designed and refined the display module interface and used data cleaning, analysis, and predictive models to improve product performance and user experience."
       ]
     },
   ];
@@ -153,24 +131,33 @@ const Experiences = () => {
 const Skills = () => {
   // Skills data structured by category
   const skillsCategories = {
-    "Academic Expertise": [
-      "Software Development", "Data Analysis", "Data Science", "Machine Learning",
-      "Artificial Intelligence"
+    "Research and Academic Expertise": [
+      "Natural Language Processing", "Large Language Models", "Computational Semantics",
+      "Word Sense Disambiguation", "Figurative Language Understanding", "Affective Language Understanding",
+      "Text Polarization Analysis", "Explainable AI", "Machine Learning", "Reliable AI Systems"
     ],
-    "Tools and Software": [
-      "Office 365", "Power BI", "Tableau", "Linux", "Android Studio", "iOS", "Visual Studio Code",
-      "Git", "GitHub", "GitLab", "Raspberry Pi", "Figma", "Lucidchart",
-      "Adobe Creative Cloud (Illustrator, Photoshop)", "Jupyter Notebook"
+    "Data, Analytics, and ML Tools": [
+      "Power BI", "Power Query", "Excel", "SQL", "SAP HANA", "Tableau",
+      "Jupyter Notebook", "AWS SageMaker", "scikit-learn", "TensorFlow",
+      "pandas", "NumPy", "matplotlib", "seaborn"
     ],
     "Programming Languages": [
-      "SQL", "MongoDB", "Python (Django, Flask, scikit-learn, tensorflow, numpy, pandas, matplotlib, seaborn, pyqt, tkinter)",
-      "JavaScript (React.js, Next.js, Node.js, Tailwind CSS)", "TypeScript", "C", "C++", "C#",
-      "Java", "HTML", "CSS", "R (dplyr, tidyr, ggplot2, tensorflow, rpart, tidyverse, randomForest)",
-      "Lisp", "Prolog", "Assembly (RARS RISC-V)", "Julia"
+      "Python", "JavaScript", "TypeScript", "SQL", "MongoDB", "R",
+      "Java", "C", "C++", "C#", "HTML", "CSS", "Lisp", "Prolog",
+      "Assembly (RARS RISC-V)", "Julia"
+    ],
+    "Software Development": [
+      "React.js", "Next.js", "Node.js", "Tailwind CSS", "Django", "Flask",
+      "React Native", "Expo", "Android Studio", "Git", "GitHub", "GitLab",
+      "Code Review", "Testing", "Agile", "Scrum"
     ],
     "Cloud Platforms and DevOps": [
       "AWS", "Azure", "Google Cloud", "Docker", "Kubernetes", "Jenkins",
-      "Travis CI", "GitHub Actions"
+      "Travis CI", "GitHub Actions", "MLOps"
+    ],
+    "Design and Productivity": [
+      "Office 365", "Linux", "iOS", "Visual Studio Code", "Raspberry Pi",
+      "Figma", "Lucidchart", "Adobe Illustrator", "Adobe Photoshop"
     ],
     "Language": [
       "English", "French", "Bangla", "Hindi", "Urdu"
