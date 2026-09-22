@@ -56,7 +56,7 @@ const Experiences = () => {
   const experiences = [
     {
       company: 'University of Alberta',
-      title: 'Graduate Research Assistant - Department of Computing Science',
+      title: 'Graduate Research Fellow - Department of Computing Science',
       duration: 'Sep 2026 - Present',
       details: [
         'Conduct research in natural language processing and large language models under the supervision of Dr. Osmar R. Zaiane, focusing on language understanding, explainability, and reliable AI systems.',
@@ -66,7 +66,7 @@ const Experiences = () => {
     {
       company: 'University of Alberta',
       title: 'Undergraduate Teaching Assistant - Department of Computing Science',
-      duration: 'Sep 2025 - Present',
+      duration: 'Sep 2025 - Aug 2026',
       details: [
         'Mentor student teams on Agile and Scrum, lead labs and workshops, and help plan and deliver software projects in a collaborative setting.',
         'Review Git/GitHub work with code reviews, testing, and peer feedback, and support clear communication through stand-ups, sprint reviews, and client meetings.'
@@ -75,7 +75,7 @@ const Experiences = () => {
     {
       company: 'Nutrien',
       title: 'Data Analytics Co-op',
-      duration: 'Jan 2025 - Present',
+      duration: 'Jan 2025 - Dec 2025',
       details: [
         "Analyze and visualize health, safety, procurement, and fleet data using Excel, Power Query, Power BI, SQL, and SAP HANA to build reports and dashboards for decision makers.",
         "Build time series and risk prediction models in Python on AWS SageMaker and work with cross-functional teams to improve data pipelines, automate workflows, and align machine learning solutions with business needs."
